@@ -61,6 +61,30 @@ public class StresGameModel
         }
     }
 
+    public bool ValidateMove(DefaultCard card, int stackIndex)
+    {
+        int stackValue = stacks[stackIndex].Peek().value;
+        bool valid = false;
+        if (stackValue == 14 && card.value == 2)
+        {
+            valid = true;
+        }
+        else if (stackValue == 2 || card.value == 14)
+        {
+            valid = true;
+        }
+        else if (card.value == stackValue + 1 || card.value == stackValue - 1)
+        {
+            valid = true;
+        }
+        return valid;
+    }
+
+    public void Stres(List<int> losers)
+    {
+        
+    }
+
     public void MakeMove(int cardInHandIndex, int playerIndex, int stackIndex)
     {
         int stackValue = stacks[stackIndex].Peek().value;
