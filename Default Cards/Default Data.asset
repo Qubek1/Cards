@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19de0093a9e56d04c9c7a4660115babf, type: 3}
+  m_Name: Default Data
+  m_EditorClassIdentifier: 
+  aceValueIs14: 1
+  cardSymbols:
+  - {fileID: 11400000, guid: 94f3b53d5fb08aa4caf8b4bedfc4c56c, type: 2}
+  - {fileID: 11400000, guid: c0e0c88f5919c4e4ba109cbe19ce00ae, type: 2}
+  - {fileID: 11400000, guid: be28864e71106b641afb5b8874375ff5, type: 2}
+  - {fileID: 11400000, guid: 20e48109ea955644081a4d30cbc1e585, type: 2}
+  jokersCount: 0
+  jokerSymbol: {fileID: 0}
+  jokerValue: 0
